@@ -1,0 +1,16 @@
+{
+  "name": "GPassword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sho-darp/GPassword.git"
+  },
+  "keywords": [],
+  "author": "sho-darp",
+  "license": "MIT"
+}
