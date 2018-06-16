@@ -8,7 +8,9 @@
   <p>パスワード生成プログラム</p>
   <div>
     文字数
-    <input type="text" id="passLength" size="2" maxlength="2">
+    <!-- スライダーに変更 -->
+    <input type="range" id="passLength" value="1" min="1" max="99" step="1" oninput="getPasswordLength();">
+    <output id="length">1</output>
   </div>
   <button onclick="generatePassword()">パスワードを生成する</button>
   <script src="genPassword.js"></script>

@@ -18,3 +18,8 @@ function randomChar() {
     randChar = String.fromCharCode(randNum);
     return randChar;
 }
+
+function getPasswordLength() {
+    var length = document.getElementById("passLength").value;
+    document.getElementById("length").value = length;
+}
