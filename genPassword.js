@@ -1,5 +1,5 @@
 function generatePassword() {
-    var length = 10; // 10文字を出力
+    var length = document.getElementById("passLength").value; // テキストボックスの値を取得
     var pw = "";
 
     for (var i=0; i < length; i++) {

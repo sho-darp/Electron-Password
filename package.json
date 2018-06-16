@@ -1,5 +1,5 @@
 {
-  "name": "GPassword",
+  "name": "Electron-Password",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sho-darp/GPassword.git"
+    "url": "git@github.com:sho-darp/Electron-Password.git"
   },
   "keywords": [],
   "author": "sho-darp",
